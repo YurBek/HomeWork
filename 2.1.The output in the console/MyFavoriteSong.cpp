@@ -1,4 +1,7 @@
-﻿#include "pch.h"
+﻿// Вывести на экран один куплет любимого стихотворения или песни, с указанием автора или исполнителя.
+// Используйте escape-последовательности для форматирования.
+
+#include "pch.h"
 #include <iostream>
 
 using namespace std;
@@ -34,6 +37,8 @@ int main()
 
 		<< "We will we will rock you\n\r"
 		<< "We will we will rock you" << endl;
+
+	return 0;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
