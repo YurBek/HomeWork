@@ -16,7 +16,7 @@
 
 using namespace std;
 
-// сравнивает double числа и возвращает 0 если x == y, 1 если x > yили -1 если x < y
+// сравнивает double числа и возвращает 0 если x == y, 1 если x > y или -1 если x < y
 int compare(double x, double y);
 
 int main()
@@ -121,7 +121,7 @@ int main()
 	return 0;
 }
 
-// сравнивает double числа и возвращает 0 если x == y, 1 если x > yили -1 если x < y
+// сравнивает double числа и возвращает 0 если x == y, 1 если x > y или -1 если x < y
 int compare(double x, double y) {
 	double delta = x - y;
 	if (fabs(delta) < numeric_limits<double>::epsilon())
